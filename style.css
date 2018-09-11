@@ -16,7 +16,7 @@ body, html {
 }
 
 body {
-	background-image: url("images/website_backgrounds/IMG_5748.jpg");
+	background-image: url("/images/website_backgrounds/IMG_5748.jpg");
 	height: 100%; 
 	background-position: center;
 	background-repeat: no-repeat;
