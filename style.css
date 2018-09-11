@@ -1,0 +1,53 @@
+body, html {
+	height: 100%;
+	text-align: center;
+  }
+	
+
+		
+	
+#blocky1 {
+	text-align: center;
+}
+
+#blocky2 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background-image: url("images/website_backgrounds/IMG_5748.jpg");
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+  }
+
+
+
+#logoSquare {
+	margin-top: 4em;
+	height: 424px;
+	width: auto;
+	
+}
+
+#carouselExampleControls {
+	margin-top: 11em;
+	margin-bottom: 2em;
+	
+}
+
+
+#btn {
+	margin-top: 1em;
+	float: center;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#shows {
+	height: 4em;
+	width: auto;
+}
