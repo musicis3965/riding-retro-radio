@@ -1,0 +1,51 @@
+<head>
+	<link rel="shortcut icon" href="https://.jpg" type="image/jpeg"/>
+    <link rel="apple-touch-icon" href="https://.jpg" type="image/jpeg"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="https://.png" />
+<link rel="icon" type="image/png" href="https://.png" sizes="192x192">
+	
+	
+	
+	
+	
+background {
+    position: absolute;
+    top: 0px;
+    height: 1577px;
+    width: 1366px;
+}
+
+
+
+
+
+
+stream links
+http://bbr24.sonixcast.com/10194
+https://tunein.com/radio/Riding-Retro-Radio-s302976/
+
+on-demand content links
+https://www.iheart.com/podcast/riding-retro-radio-on-demand-28794435/
+https://soundcloud.com/user-186662107
+https://tunein.com/podcasts/Music-Podcasts/Riding-Retro-Radio-on-Demand-p1000862/
+
+merchandise links
+http://a.co/c1k7hG6
+https://shop.spreadshirt.com/riding-retro-radio/
+
+shows
+https://soundcloud.com/user-387576477
+https://www.patreon.com/ridingretroradio
+
+music playlists
+	default
+	   https://open.spotify.com/user/lupicsid/playlist/4CZ02iHq9hYnv7jjaWKDTM?si=vcW2biK5RMGd3VzDDcX4-Q
+	   https://itunes.apple.com/us/playlist/riding-retro-radio-default-library/pl.u-4Jomm9lTmzNPpe
+	classic hits
+	   https://open.spotify.com/user/lupicsid/playlist/3LAEVjaeASadl7mgoeRXla
+	   https://itunes.apple.com/us/playlist/old-man-millers-classic-hits-playlist/pl.bac6162ce440412f8b0e03d31e78c61f
+	   
+social
+https://www.instagram.com/ridingretroradio/
+https://www.facebook.com/ridingretroradio
+https://www.youtube.com/channel/UCdrHejxphNJgpE4O5f3QeVA
