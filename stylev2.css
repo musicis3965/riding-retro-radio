@@ -1,0 +1,45 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+
+body, html {
+	height: 100%;
+	text-align: center;
+  }
+	
+
+
+body {
+	background-image: url("images/IMG_5748.JPG");
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+  }
+
+
+
+#logoSquare {
+	margin-top: 4em;
+	margin-left: 4em;
+	height: 424px;
+	width: auto;
+	
+}
+
+#carouselExampleControls {
+	margin-top: 11em;
+	margin-bottom: 2em;
+	margin-right: 4em;
+	margin-left: 4em;
+}
+
+
+.btn-group {
+ margin-bottom: 2em;
+ margin-left: 8em;
+}
+
