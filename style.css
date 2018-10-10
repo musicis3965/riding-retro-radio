@@ -22,7 +22,7 @@ body, html {
 }
 
 body {
-	/* background-image: url("images/IMG_5748.JPG"); */
+	background-image: url("images/IMG_5748.JPG");
 	height: 100%; 
 	background-position: center;
 	background-repeat: no-repeat;
