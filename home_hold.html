@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Riding Retro Radio</title>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="shortcut icon" href="images/AppIcon.jpg" type="image/jpeg"/>
+  <link rel="apple-touch-icon" href="images/AppIcon.jpg" type="image/jpeg"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/AppIcon.png" />
+  <link rel="icon" type="image/png" href="images/AppIcon.png" sizes="192x192">
+</head>
+
+<!-- <nav class="navbar navbar-collapse navbar-toggler navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="images/navLogo_trans.png" width="60%" height="60%" class="d-inline-block align-top" alt="">
+  </a>
+  <span class="navbar-text">
+    <a href="http://bbr24.sonixcast.com/10194">&nbsp stream &nbsp |</a>
+    <a href="https://www.patreon.com/ridingretroradio">&nbsp beta members</a>
+  </span>
+</nav> -->
+
+<!-- this will be the now playing toolbar -->
+<!-- <nav class="navbar navbar-collapse navbar-toggler navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <p>Now Playing:</p>
+  </a>
+  
+</nav> -->
+
+
+
+<div> 
+<iframe scrolling="no" src="https://enriquesipod.wixsite.com/riding-retro-radio" style="height: 1700px; margin-top: -70px; width: 100%;"> 
+</iframe> 
+</div> 
+
+<!-- <p id='songInfo'></p> -->
+  
+  <!-- <iframe src="https://www.dropbox.com/s/2j9in0louv565x7/currently_playing.txt" style="height:100%; width:100%; border:none;"></iframe> -->
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script>
+  
+  jQuery.getJSON('http://allorigins.me/get?url=http%3A//rrr_currentlyplaying.droppages.com/&callback=?', function(data){
+  $('#output').html(data.contents),
+  console.log(data.contents);
+  var results = data.contents;
+  $("#songInfo").html(results);
+
+  var str = document.getElementById("songInfo").innerHTML; 
+    var res = str.replace(/Winamp/g, "<br>").replace(/171/g, "<br><br><br><br><br>").replace(/172/g, "<br><br><br><br><br>");
+    document.getElementById("songInfo").innerHTML = res;
+
+  
+
+  
+});
+
+  
+
+// var url = "http://anyorigin.com/go?url=" + encodeURIComponent("http://rrr_currentlyplaying.droppages.com/") + "&callback=?";
+// jQuery.get(url, function(response) {
+//   console.log(response);
+// });
+  
+  </script>
+
+  
+<body>
+  
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+</body>
+</html>
